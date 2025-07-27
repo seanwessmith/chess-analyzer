@@ -1,0 +1,19 @@
+{
+  "name": "chess-analyzer",
+  "module": "index.ts",
+  "type": "module",
+  "private": true,
+  "devDependencies": {
+    "@types/bun": "^1.2.18"
+  },
+  "peerDependencies": {
+    "typescript": "^5.8.3"
+  },
+  "dependencies": {
+    "@aws-sdk/client-s3": "^3.848.0",
+    "@aws-sdk/client-sqs": "^3.848.0",
+    "chess.js": "^1.4.0",
+    "dotenv": "^17.2.0",
+    "inquirer": "^12.7.0"
+  }
+}

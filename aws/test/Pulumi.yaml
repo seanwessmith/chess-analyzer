@@ -1,0 +1,7 @@
+name: chess-analyzer
+description: aws typescript stockfish pgn runner
+runtime: nodejs
+config:
+  pulumi:tags:
+    value:
+      pulumi:template: aws-typescript
